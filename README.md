@@ -2,6 +2,10 @@
 
 A Octopress Ink plugin to add font-awesome assets to your site.
 
+[![Build Status](https://travis-ci.org/wantee/octopress-font-awesome.svg)](https://travis-ci.org/wantee/octopress-font-awesome)
+[![Gem Version](https://badge.fury.io/rb/octopress-font-awesome.svg)](http://badge.fury.io/rb/octopress-font-awesome)
+[![License](http://img.shields.io/:license-mit-blue.svg)](https://github.com/wantee/octopress-font-awesome/blob/master/LICENSE.txt)
+
 ## Installation
 
 Add this line to your application's Gemfile:
@@ -22,6 +26,8 @@ Or install it yourself as:
 
 Font-awesome documentation can be found at [http://fontawesome.io](http://fontawesome.io/).
 
+Make sure adding `{% css_asset_tag %}` in your site's `<head>`. Then using the icon,
+
 ```html
 <i class="fa fa-adjust"></i>
 ```
@@ -34,7 +40,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/octopress-font-awesome/fork )
+1. Fork it ( https://github.com/wantee/octopress-font-awesome/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
