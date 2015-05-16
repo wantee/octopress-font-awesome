@@ -1,8 +1,6 @@
 # OctopressFontAwesome
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/octopress-font-awesome`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A Octopress Ink plugin to add font-awesome assets to your site.
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Font-awesome documentation can be found at [http://fontawesome.io](http://fontawesome.io/).
+
+```html
+<i class="fa fa-adjust"></i>
+```
 
 ## Development
 
